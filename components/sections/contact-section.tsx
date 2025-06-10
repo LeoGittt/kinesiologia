@@ -108,13 +108,11 @@ export default function ContactSection() {
                       <Clock className="w-6 h-6 text-white" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-[#333333] mb-1">Horarios</h4>
-                      <p className="text-[#777777]">
-                        Lunes a Viernes: 9:00 - 19:00
-                        <br />
-                        Sábados: 9:00 - 13:00
-                      </p>
-                    </div>
+  <h4 className="font-semibold text-[#333333] mb-1">Horarios</h4>
+  <p className="text-[#777777]">
+    Con cita previa
+  </p>
+</div>
                   </div>
                 </div>
               </CardContent>
