@@ -64,21 +64,21 @@ export default function RpgSection() {
               initial={{ opacity: 0, x: 50 }}
               animate={inView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="relative"
+              className="relative flex justify-center items-center"
             >
               <div className="absolute -top-4 -left-4 w-32 h-32 bg-[#FF6B35]/20 rounded-full filter blur-xl"></div>
               <Image
-                src="/f.jpg?height=500&width=600"
+                src="/ff.jpeg?height=200&width=240"
                 alt="RPG - Reeducación Postural Global"
-                width={600}
-                height={500}
-                className="rounded-2xl shadow-2xl relative z-10"
+                width={240}
+                height={200}
+                className="rounded-2xl shadow-2xl relative z-10 mx-auto"
               />
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-[#FF6B35]/30 rounded-full filter blur-xl"></div>
             </motion.div>
           </div>
 
-          <div className="pt-4">
+          <div className="pt-4 flex justify-center">
             <Button
               asChild
               size="lg"
