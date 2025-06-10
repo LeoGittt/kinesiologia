@@ -38,12 +38,12 @@ export default function HeroSection() {
       ref={ref}
       className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20"
     >
-      <div className="absolute inset-0 bg-gradient-to-br from-[#FFE8DF] via-white to-[#F8F8F8] dark:from-gray-900 dark:via-gray-900 dark:to-gray-950"></div>
+      <div className="absolute inset-0 bg-gradient-to-br from-[#FFE8DF] via-white to-[#F8F8F8]"></div>
 
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('/a.jpg?height=1080&width=1920')] bg-cover bg-center"></div>
-        <div className="absolute top-0 left-0 w-full h-full bg-grid-pattern-light dark:bg-grid-pattern-dark"></div>
+        <div className="absolute top-0 left-0 w-full h-full bg-grid-pattern-light"></div>
       </div>
 
       {/* Animated shapes */}
@@ -75,13 +75,13 @@ export default function HeroSection() {
         >
           <div className="text-center md:text-left">
             <motion.div variants={itemVariants}>
-              <span className="inline-block py-1 px-3 rounded-full bg-[#FFE8DF] dark:bg-[#FF6B35]/20 text-[#FF6B35] text-sm font-medium mb-6">
+              <span className="inline-block py-1 px-3 rounded-full bg-[#FFE8DF] text-[#FF6B35] text-sm font-medium mb-6">
                 Movimiento con Propósito
               </span>
             </motion.div>
             <motion.h1
               variants={itemVariants}
-              className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-[#333333] dark:text-white mb-6 leading-tight tracking-tight"
+              className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-bold text-[#333333] mb-6 leading-tight tracking-tight"
             >
               Rehabilitación que te{" "}
               <span className="text-[#FF6B35]">Impulsa</span>, Movimiento que te{" "}
@@ -89,7 +89,7 @@ export default function HeroSection() {
             </motion.h1>
             <motion.p
               variants={itemVariants}
-              className="text-md md:text-md text-[#777777] dark:text-gray-300 mb-8 leading-relaxed"
+              className="text-md md:text-md text-[#777777] mb-8 leading-relaxed"
             >
               En SOMA acompañamos tu recuperación con un enfoque integral y
               técnicas basadas en evidencia. Nuestro objetivo es que te sientas

@@ -19,7 +19,7 @@ export default function StatsCounter({ stats }: StatsCounterProps) {
   })
 
   return (
-    <section ref={ref} className="py-16 bg-white dark:bg-gray-950">
+    <section ref={ref} className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -69,11 +69,11 @@ function StatItem({ stat, inView, index }: { stat: { label: string; value: strin
       <div className="w-16 h-16 bg-gradient-to-br from-[#FF6B35] to-[#E65C2E] rounded-full flex items-center justify-center mx-auto mb-4">
         <div className="text-white">{stat.icon}</div>
       </div>
-      <div className="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white mb-2">
+      <div className="text-3xl md:text-4xl font-bold text-[#333333] mb-2">
         {count}
         {stat.suffix}
       </div>
-      <p className="text-[#777777] dark:text-gray-300 font-medium">{stat.label}</p>
+      <p className="text-[#777777] font-medium">{stat.label}</p>
     </motion.div>
   )
 }

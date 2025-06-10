@@ -26,9 +26,9 @@ export default function ServiceModal({ service, isOpen, onClose }: ServiceModalP
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[600px] max-w-[95%] bg-white dark:bg-gray-800">
+      <DialogContent className="sm:max-w-[600px] max-w-[95%] bg-white">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold text-[#333333] dark:text-white flex items-center gap-3">
+          <DialogTitle className="text-2xl font-bold text-[#333333] flex items-center gap-3">
             <div className="w-12 h-12 bg-gradient-to-br from-[#FF6B35] to-[#E65C2E] rounded-full flex items-center justify-center">
               <div className="text-white">{service.icon}</div>
             </div>
@@ -38,16 +38,16 @@ export default function ServiceModal({ service, isOpen, onClose }: ServiceModalP
 
         <div className="mt-6 space-y-6">
           <div>
-            <h3 className="text-lg font-semibold text-[#333333] dark:text-white mb-2">Descripción</h3>
-            <p className="text-[#777777] dark:text-gray-300">
+            <h3 className="text-lg font-semibold text-[#333333] mb-2">Descripción</h3>
+            <p className="text-[#777777]">
               {service.longDescription || service.description}
             </p>
           </div>
 
           {service.benefits && service.benefits.length > 0 && (
             <div>
-              <h3 className="text-lg font-semibold text-[#333333] dark:text-white mb-2">Beneficios</h3>
-              <ul className="list-disc list-inside space-y-2 text-[#777777] dark:text-gray-300">
+              <h3 className="text-lg font-semibold text-[#333333] mb-2">Beneficios</h3>
+              <ul className="list-disc list-inside space-y-2 text-[#777777]">
                 {service.benefits.map((benefit, index) => (
                   <li key={index}>{benefit}</li>
                 ))}

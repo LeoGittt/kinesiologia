@@ -47,7 +47,7 @@ export default function InstagramFeed() {
   ]
 
   return (
-    <section ref={ref} className="py-24 bg-[#F8F8F8] dark:bg-gray-900">
+    <section ref={ref} className="py-24 bg-[#F8F8F8]">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -55,13 +55,13 @@ export default function InstagramFeed() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="inline-block py-1 px-3 rounded-full bg-[#FFE8DF] dark:bg-[#FF6B35]/20 text-[#FF6B35] text-sm font-medium mb-4">
+          <span className="inline-block py-1 px-3 rounded-full bg-[#FFE8DF] text-[#FF6B35] text-sm font-medium mb-4">
             Síguenos en Instagram
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-[#333333] dark:text-white mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#333333] mb-4">
             Nuestro <span className="text-[#FF6B35]">Día a Día</span>
           </h2>
-          <p className="text-lg text-[#777777] dark:text-gray-300 max-w-2xl mx-auto mb-8">
+          <p className="text-lg text-[#777777] max-w-2xl mx-auto mb-8">
             Descubre más sobre nuestro trabajo y los resultados de nuestros pacientes
           </p>
           <div className="flex justify-center space-x-4">
@@ -91,7 +91,7 @@ export default function InstagramFeed() {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group relative aspect-square overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700"
+              className="group relative aspect-square overflow-hidden rounded-lg bg-gray-200"
             >
               <Image
                 src={post.image || "/placeholder.svg"}

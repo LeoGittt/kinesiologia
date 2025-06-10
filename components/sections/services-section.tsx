@@ -52,7 +52,7 @@ export default function ServicesSection() {
     <section 
       id="servicios" 
       ref={ref} 
-      className="py-28 bg-gradient-to-b from-[#F9FAFB] to-[#F0F2F5] dark:from-gray-900 dark:to-gray-800"
+      className="py-28 bg-gradient-to-b from-[#F9FAFB] to-[#F0F2F5]"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -67,7 +67,7 @@ export default function ServicesSection() {
           >
             Nuestras Especialidades
           </motion.span>
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-5 leading-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-5 leading-tight">
             Descubre Nuestros <br className="hidden sm:block" />
             <span className="text-[#FF6B35] relative inline-block">
               Servicios Exclusivos
@@ -79,7 +79,7 @@ export default function ServicesSection() {
               />
             </span>
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Soluciones personalizadas para tu rehabilitación, bienestar y máximo potencial físico
           </p>
         </motion.div>
