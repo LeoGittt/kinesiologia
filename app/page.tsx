@@ -48,7 +48,7 @@ export default function Home() {
       <ServicesSection />
       <RpgSection />
       <ContactSection />
-      <Footer />
+      <Footer/>
     </main>
   )
 }

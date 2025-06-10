@@ -122,18 +122,30 @@ export default function ContactSection() {
 
             {/* Map */}
             <Card className="bg-white border-0 shadow-xl overflow-hidden">
-              <div className="h-64 bg-gray-200 relative">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.8!2d-68.5364!3d-31.5375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzHCsDMyJzE1LjAiUyA2OMKwMzInMTEuMCJX!5e0!3m2!1sen!2sar!4v1234567890"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  className="absolute inset-0"
-                ></iframe>
-              </div>
+              <Link 
+                href="https://maps.app.goo.gl/AfR6CJroiAvTF2yXA?g_st=aw" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="relative block"
+              >
+                <div className="h-64 bg-gray-200 relative">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.8!2d-68.5364!3d-31.5375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816b6b0c0c0c0c%3A0x0!2zMzHCsDMyJzE1LjAiUyA2OMKwMzInMTEuMCJX!5e0!3m2!1sen!2sar!4v1234567890"
+                    width="100%"
+                    height="100%"
+                    style={{ border: 0, pointerEvents: 'none' }}
+                    allowFullScreen
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0"
+                  ></iframe>
+                  <div className="absolute inset-0 bg-black bg-opacity-0 hover:bg-opacity-10 transition-all duration-300 flex items-center justify-center">
+                    <div className="bg-white px-4 py-2 rounded-full shadow-lg opacity-0 hover:opacity-100 transition-opacity duration-300">
+                      Ver en Google Maps
+                    </div>
+                  </div>
+                </div>
+              </Link>
             </Card>
           </motion.div>
         </div>
