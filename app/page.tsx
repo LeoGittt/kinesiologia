@@ -41,7 +41,7 @@ const stats = [
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white dark:bg-gray-950 transition-colors duration-300">
+    <main className="min-h-screen bg-white transition-colors duration-300">
       <WhatsAppButton />
       <Header />
       <HeroSection />
