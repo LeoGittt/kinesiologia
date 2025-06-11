@@ -6,7 +6,7 @@ export const services = [
   {
     icon: <Activity className="w-8 h-8" />,
     title: "Kinesiología Traumatológica",
-    description: "Tratamiento especializado para lesiones musculoesqueléticas y recuperación post-quirúrgica.",
+    description: "Tratamiento especializado para lesiones musculoesqueléticas y recuperación pre y post-quirúrgica.",
     longDescription: "La Kinesiología Traumatológica se enfoca en la rehabilitación de lesiones óseas, articulares y musculares. Utilizamos técnicas específicas como terapia manual, ejercicios terapéuticos y electroterapia para facilitar una recuperación segura y efectiva.",
     benefits: [
       "Recuperación funcional",
@@ -54,7 +54,7 @@ export const services = [
   {
     icon: <Heart className="w-8 h-8" />,
     title: "RPG - Reeducación Postural Global",
-    description: "Método terapéutico para corregir postura y aliviar dolores crónicos.",
+    description: "Método terapéutico para corregir postura y aliviar dolores crónicos. Tratamiento personalizado que combina posturas, técnicas articulares y respiratorias, contracciones musculares y más.",
     longDescription: "La RPG trabaja sobre cadenas musculares para corregir desequilibrios posturales. Se basa en estiramientos activos y respiración consciente para mejorar la postura, aliviar tensiones y prevenir dolencias a largo plazo.",
     benefits: [
       "Corrección postural",
@@ -86,8 +86,8 @@ export const services = [
   {
     icon: <Shield className="w-8 h-8" />,
     title: "Terapias Manuales",
-    description: "Técnicas manuales para tratar el dolor y mejorar el movimiento.",
-    longDescription: "Incluye masaje terapéutico, movilizaciones articulares, liberación miofascial y otras técnicas manuales adaptadas a la necesidad del paciente. Ideal para aliviar tensiones, mejorar movilidad y promover bienestar general.",
+    description: "Incluye técnicas osteopáticas y de RPG.",
+    longDescription: "Incluye técnicas osteopáticas, RPG, movilizaciones articulares, liberación miofascial y otras técnicas manuales adaptadas a la necesidad del paciente. Ideal para aliviar tensiones, mejorar movilidad y promover bienestar general.",
     benefits: [
       "Alivio inmediato del dolor",
       "Mejora de la circulación",

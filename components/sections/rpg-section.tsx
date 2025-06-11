@@ -54,9 +54,10 @@ export default function RpgSection() {
               </div>
 
               <p className="text-lg text-[#777777] leading-relaxed">
-                El objetivo principal es liberar las tensiones miofasciales y corregir alteraciones posturales, lo que
-                puede aliviar el dolor, mejorar la movilidad corporal disminuyendo su rigidez y promover una mejor
-                postura.
+                El tratamiento es personalizado y consta de una combinación de posturas, técnicas articulares y respiratorias, 
+                contracciones musculares y estiramientos. El objetivo principal es liberar las tensiones miofasciales y 
+                corregir alteraciones posturales, lo que puede aliviar el dolor, mejorar la movilidad corporal 
+                disminuyendo su rigidez y promover una mejor postura.
               </p>
             </motion.div>
 
